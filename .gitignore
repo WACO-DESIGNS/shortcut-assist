@@ -1,0 +1,15 @@
+# Local build outputs and settings
+*.exe
+*.dll
+*.pdb
+*.lnk
+*.zip
+/data/
+/work/
+/bin/
+/obj/
+
+# Local editor files
+.vs/
+.vscode/
+*.user

@@ -1,4 +1,4 @@
-# Shortcut Assist v1.5
+# Shortcut Assist v1.6
 
 Shortcut Assist gives you a shortcut wheel for Fusion 360, SolidWorks, Photoshop, Illustrator, and other Windows programs you add. Set up a wheel for each program, then open it at your cursor while you work.
 
@@ -7,6 +7,12 @@ Shortcut Assist gives you a shortcut wheel for Fusion 360, SolidWorks, Photoshop
 Open `Shortcut-Assist.exe` after it downloads. It runs directly on 64-bit Windows.
 
 ![Shortcut Assist showing the Fusion 360 wheel editor](https://github.com/WACO-DESIGNS/shortcut-assist/blob/b1396ad548b15dfdcbc2f4984175c5e1ea1ee674/docs/shortcut-assist.png?raw=true)
+
+## What's new
+
+**v1.6 adds experimental shortcut scanning.** Open the program you want to scan, then choose **… → Manage programs → Scan shortcuts**. Shortcut Assist also checks for shortcuts when you add a program. Review what it finds and click **Add selected** to import the shortcuts into that program’s library.
+
+The scan runs locally and reads supported shortcut files and Windows menu data. It doesn’t capture the screen. Coverage is still in development: some programs expose only part of their shortcuts, some return none, and installed files may contain defaults instead of your custom bindings. If the scan finds nothing, use **Add custom shortcut** to enter your keys manually.
 
 ## Get started
 
